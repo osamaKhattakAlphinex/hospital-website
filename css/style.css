@@ -210,13 +210,13 @@
   color: var(--bs-primary) !important;
 }
 
-.navbar-light .navbar-brand img {
-  max-height: 50px;
+.navbar-brand img {
+  max-height: 70px;
   transition: 0.5s;
 }
 
 .sticky-top.navbar-light .navbar-brand img {
-  max-height: 45px;
+  max-height: 55px;
 }
 
 .navbar .dropdown-toggle::after {
@@ -443,6 +443,14 @@
   background-size: cover;
   padding: 160px 0 60px 0;
 }
+#team-breadcrumb {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/app_bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 160px 0 60px 0;
+}
 #consultant-breadcrumb {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../img/cons-banner.jpg);
@@ -527,6 +535,14 @@
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../img/about-us-banner.jfif);
   background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 160px 0 60px 0;
+}
+#appointment-breadcrumb {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/hospital-app.webp);
+  background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 160px 0 60px 0;
